@@ -1,0 +1,23 @@
+{
+  "name": "premier-players-web-scraper",
+  "version": "0.0.1",
+  "description": "A web scraper of all players of premier league",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "web",
+    "scraper"
+  ],
+  "author": "Vinicius Moura",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "puppeteer": "^2.1.1",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-stealth": "^2.4.9"
+  }
+}
